@@ -28,7 +28,7 @@ const METHOD_CALL: &str = "30627b7c";
 //const METHOD_REVERT_BIN: &str =
 //    "02067e6a00000000000000000000000000000000000000000000000000000000000000c7";
 
-const TEST_DURATION : Duration = Duration::from_millis(1000);
+const TEST_DURATION : Duration = Duration::from_millis(3000);
 
 fn bench_rust_evm() -> Result<()> {
     let owner = H160::from_str(OWNER_ADDR)?;
